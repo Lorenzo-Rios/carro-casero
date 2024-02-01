@@ -25,10 +25,10 @@ while (seleccion != "si" && seleccion != "no") {
 
 while (seleccion === "si") {  
     const agregarEnvio = () => {
-        let nombre = prompt ("Ingresa tu nombre:")
-        let direccion = prompt ("Ingresa tu direccion:")
-        let email = prompt ("Ingresa tu email:")
-        let telefono = prompt ("Ingresa tu telefono:")
+        this.nombre = nombre = prompt ("Ingresa tu nombre:")
+        this.direccion = direccion = prompt ("Ingresa tu direccion:")
+        this.email = email = prompt ("Ingresa tu email:")
+        this.telefono = telefono = prompt ("Ingresa tu telefono:")
     
         const cliente = {nombre: nombre, direccion: direccion, email: email, telefono: telefono}
     
