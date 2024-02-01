@@ -30,8 +30,10 @@ while (seleccion === "si") {
         this.email = email = prompt ("Ingresa tu email:")
         this.telefono = telefono = prompt ("Ingresa tu telefono:")
     
-        const cliente = {nombre: nombre, direccion: direccion, email: email, telefono: telefono}
-    
+        const cliente = [
+          {usuario: 'Este usuario se llama:' + this.nombre, direccion: 'La direccion del usuario es:' + this.direccion, email: 'Email de usuario:' + this.email, telefono: 'Telefono de usuario:' + this.telefono}
+        ]
+        console.log(cliente);
         envios.push (cliente)
       
     }
